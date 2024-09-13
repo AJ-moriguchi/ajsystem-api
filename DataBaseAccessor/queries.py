@@ -5,7 +5,7 @@ SELECT
     E.Email
 FROM [dbo].[Attendances] A
 INNER JOIN AspNetUsers E ON A.UserId = E.Id
-WHERE (E.LastName + E.FirstName) = N?
+WHERE (E.LastName + E.FirstName) = ?
   AND MONTH(A.[Date]) = MONTH(GETDATE())
   AND YEAR(A.[Date]) = YEAR(GETDATE())
 GROUP BY E.Email;
