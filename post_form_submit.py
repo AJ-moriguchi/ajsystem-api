@@ -187,7 +187,7 @@ def post_message_to_slack(data, form_data, employee_data):
                                 "type": "plain_text",
                                 "text": "メールを送信"
                             },
-                            "url": f"mailto:{email}?subject=月次報告の入力ありがとうございました。&body={""}"  # メーラーを起動するリンク
+                            "url": f"mailto:{email}?subject=月次報告の入力ありがとうございました。&body="""  # メーラーを起動するリンク
                         }
                     ]
                 }

@@ -11,3 +11,7 @@ azure-search-documents==11.4.0  # Azure Cognitive Search 用パッケージ
 azure-core>=1.28.0,<2.0.0  # Azure SDK のコアライブラリ
 openai==0.27.0  # OpenAI API用パッケージ
 pypdf==3.8.1  # PDF操作用パッケージ
+google-auth==2.3.3
+google-auth-oauthlib==0.4.6
+google-auth-httplib2==0.1.0
+google-api-python-client==2.30.0
